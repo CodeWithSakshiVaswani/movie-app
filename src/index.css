@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import "tailwindcss";
+
+@theme {
+    --font-poppins: "Poppins", "sans-serif";
+    --color-border-grey: #3d3d3d9c;
+    --color-placeholder-text: #ffffffaf;
+    --color-searchbar: #ffffffb4;
+    --color-searchbar-border: hsla(0, 0%, 100%, 0.055);
+    --color-button: #282222ad;
+    --color-space-color: rgba(128, 128, 128, 0.58);
+    --color-icon: #afbeea;
+    --color-title: #417cba;
+    --color-blue: #b7cef1;
+    --color-genreborder: #5991e6;
+    --color-overviewtext: #d7e0ea;
+    --font-monospace: "Space Mono", monospace;
+}
+
+@layer base {
+    * {
+        @apply m-0 p-0 box-border font-poppins;
+        scrollbar-color: rgb(62, 65, 68) rgb(22, 24, 28);
+        scroll-padding: 2rem;
+    }
+    body {
+        @apply bg-black text-white;
+    }
+}
