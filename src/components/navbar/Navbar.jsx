@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../../assets/img/Gold Line art Video Camera for Movie Cinema Production Logo.png";
 import logo2 from "../../assets/img/Clean Modern Programmer Developer Web Designer Logo(1).png";
 import { useSearchStore } from "../../store/useSearchStore";
